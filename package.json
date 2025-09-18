@@ -1,0 +1,25 @@
+{
+  "name": "exercicionode",
+  "version": "1.0.0",
+  "description": "exercicios node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioSedei/exercicioNode.git"
+  },
+  "author": "Caio Sedei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioSedei/exercicioNode/issues"
+  },
+  "homepage": "https://github.com/CaioSedei/exercicioNode#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
