@@ -1,15 +1,14 @@
 import express from 'express';
 const app = express();
 app.use(express.json());
-import { exercicio1Get, exercicio1Post, exercicio2} from './controller/exercio.js';
+import { exercicio1, exercicio2} from './controller/exercio.js';
 
 
 
-app.get('/exercicio1', exercicio1Get)
-app.post('/exercicio1', exercicio1Post)
+app.post('/exercicio1', exercicio1)
 
 
-app.get('/exercicio2/:valorHr/:qtdeHr', exercicio2)
+app.post('/exercicio2', exercicio2)
 
 
 
